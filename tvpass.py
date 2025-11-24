@@ -2,7 +2,7 @@ import requests
 import re
 from datetime import datetime, timedelta
 
-UPSTREAM_URL = "http://tvpass.org"
+UPSTREAM_URL = "https://tvpass.org/channels"
 LOCAL_FILE = "TVPass.m3u"
 
 LOCKED_GROUPS = {
